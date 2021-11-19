@@ -1,0 +1,28 @@
+@light-border: #444;
+
+.page-public {
+    background: #320778;
+    background: linear-gradient(to bottom right, #320778, #A967B8);
+}
+
+.page-public .panel-of-actual-content {
+    box-shadow: 0px 1px 6px 3px rgba(0,0,0,0.75);
+    background-color: #111;
+    color: #fefefe;
+}
+
+.page-public .content-panel-header-navigation {
+    border-top: 1px solid @light-border;
+    border-bottom: 1px solid @light-border;
+    border-left: 1px solid #111;
+    border-right: 1px solid #111;
+
+    li {
+        background-color: #222;
+        border-right: 1px solid @light-border;
+    }
+
+    li:last-of-type {
+        border-right: none;
+    }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "client",
+  "scripts": {
+    "start": "gulp watch",
+    "tsc": "tsc"
+  },
+  "packageManager": "yarn@3.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/babelify": "^7.3.7",
+    "@types/backbone": "^1.4.14",
+    "@types/browserify": "^12.0.37",
+    "@types/event-stream": "^3.3.34",
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-babel": "^6.1.30",
+    "@types/gulp-less": "^0.0.32",
+    "@types/gulp-rename": "^2.0.1",
+    "@types/gulp-sourcemaps": "^0.0.35",
+    "@types/jquery": "^3.5.8",
+    "@types/merge-stream": "^1.1.2",
+    "@types/underscore": "^1.11.3",
+    "@types/vinyl-buffer": "^1.0.0",
+    "@types/vinyl-source-stream": "^0.0.30",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "event-stream": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-less": "^5.0.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "merge-stream": "^2.0.0",
+    "requirejs": "^2.3.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "global": "^4.4.0",
+    "gulp-cli": "^2.3.0",
+    "handlebars": "^4.7.7",
+    "jquery": "^3.6.0",
+    "underscore": "^1.13.1"
+  }
+}

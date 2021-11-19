@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+live-server servable/ --port=3000
+
